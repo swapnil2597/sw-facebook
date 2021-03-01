@@ -1,0 +1,74 @@
+.login {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login .login__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px 30px 50px 30px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.login .login__body .login__disclaimer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.login .login__body .login__disclaimer h5 {
+  margin-bottom: 10px;
+}
+
+.login .login__body .login__disclaimer a {
+  text-decoration: none;
+  color: #2e81f4;
+}
+
+.login .login__body .login__disclaimer a:hover {
+  font-weight: bold;
+  color: #103d7d;
+}
+
+.login .login__body img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 150px;
+}
+
+.login .login__body .loginSubmit__button {
+  width: 300px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.login .login__body .loginSubmit__button:hover {
+  color: #2e81f4;
+  background-color: lightgray;
+}
+
+.login .login__body h5 {
+  color: gray;
+}
+/*# sourceMappingURL=Login.css.map */
